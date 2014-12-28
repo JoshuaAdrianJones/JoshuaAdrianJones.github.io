@@ -10,13 +10,15 @@ body {
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 18px;
-    width: 80%;
     margin: 0 auto;
 }
 h1,
 h4,
 img {
     text-align: center;
+}
+img {
+    max-width: 100%;
 }
 nav a {
     font-size: 125%;
@@ -34,33 +36,34 @@ p {
 p.footer-text {
     text-align: center;
 }
-section.container {
-    text-align: center;
-    margin: 0 auto;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 1%;
-}
 header,
 section,
 footer {
     font-family: "Lato", sans-serif;
     color: white;
-    border: black solid 1%;
+    border: black solid 2%;
     padding: 1%;
 }
 header {
     background: black;
     margin-bottom: 1%;
     margin-top: 1%;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 section {
     margin: 0 auto;
     background: black;
     margin-bottom: 1%;
     opacity: 0.85;
-    padding-left: 2%;
+    width: 80%;
+}
+section.container {
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    width: 60%;
 }
 footer {
     background: black;
@@ -68,13 +71,7 @@ footer {
     margin: 0 auto;
     margin-top: 1%;
     padding-left: 2%;
+    text-align: center;
+    margin-bottom: 0;
 }
-.img {
-    max-width: 50%;
-}
-.portrait {
-    max-width: 30%;
-}
-img.larger {
-    width: 80%;
-}
+.img {}

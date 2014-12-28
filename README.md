@@ -1,4 +1,3 @@
-JoshuaAdrianJones.github.io
+<h1>JoshuaAdrianJones.github.io</h1>
 ===========================
-
-git hub page
+<h2>This page is a personal portfolio site.</h2>

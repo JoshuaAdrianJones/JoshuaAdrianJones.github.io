@@ -1,0 +1,165 @@
+html,
+body {
+    background: #34495e;
+    font-family: "Lato", sans-serif;
+    font-size: 4vh;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    margin: auto;
+    font-size: 4.5vh;
+}
+ul {
+    list-style: none;
+}
+.grid * {
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.row:before,
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.row{
+    width: 100%;
+    
+}
+
+
+[class*='col-'] {
+    
+    min-height: 0.1%;
+    width: 16.66%;
+    content: "";
+  float: left;
+}
+
+
+.col-100 {
+    width: 100%;
+    
+}
+.col-33 {
+    width: 33.33%;
+}
+.col-66 {
+    width: 66.66%;
+}
+.col-50 {
+    width: 50%;
+}
+.col-50 p {padding: 5%;
+margin: auto;
+    font-size: 70%;
+    
+}
+.col-50 ul {padding: 5%;
+margin: auto;
+    font-size: 70%;
+
+}
+
+.col-50 h2{
+    margin-bottom: 2%;
+    
+    padding: 2%;
+}
+.col-50 h3{
+padding-bottom: 1%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.l1 {
+    background: #551c6c;
+    height: 47.5vh;
+    
+
+}
+.l2 {
+   background: white;
+    color: grey;
+    height: 47.5vh;
+}
+.r1 {
+   background: white;
+    color: grey;
+   height: 47.5vh;
+}
+.r2 {
+     background: #551c6c;
+ height: 47.5vh;
+    color: grey;
+}
+
+
+
+header {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    background: #009688;
+    height: 95vh;
+}
+header p{
+    padding: 2%;
+    
+    width: 80%;
+margin: auto;
+    border: solid;
+    border-radius: .5em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+header h3{
+position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+nav {
+    text-align: center;
+    font-size: 100%;
+    color: white;
+    background: black;
+    height: 5vh;
+   
+}
+nav a:link,
+a:visited {
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+}
+nav a:hover {
+    background: white;
+    color: #009688;
+}
+p {
+    padding: 1%;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+footer {
+    font-size: 2.5vh;
+    background: #2196F3;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

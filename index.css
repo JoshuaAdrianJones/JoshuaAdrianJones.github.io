@@ -18,6 +18,8 @@ h5 {
 }
 ul {
     list-style: none;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
 }
 .grid * {
     width: 100%;
@@ -68,6 +70,7 @@ margin: auto;
 .col-50 ul {padding: 5%;
 margin: auto;
     font-size: 70%;
+    margin-bottom: 5%;
 
 }
 
@@ -86,23 +89,23 @@ padding-bottom: 1%;
 
 .l1 {
     background: #551c6c;
-    height: 47.5vh;
-    
+    min-height: 47.5vh;
+   
 
 }
 .l2 {
    background: white;
     color: grey;
-    height: 47.5vh;
+    min-height: 47.5vh;
 }
 .r1 {
    background: white;
     color: grey;
-   height: 47.5vh;
+   min-height: 47.5vh;
 }
 .r2 {
      background: #551c6c;
- height: 47.5vh;
+ min-height: 47.5vh;
     color: grey;
 }
 
@@ -151,6 +154,7 @@ nav a:hover {
 }
 p {
     padding: 1%;
+    
 }
 a {
     color: inherit;

@@ -1,9 +1,9 @@
 html,
 body {
-    background: #34495e;
+    background: #3a75bc;
     font-family: "Lato", sans-serif;
-    font-size: 4vh;
-    height: 100%;
+    font-size: 100%;
+    
     margin: 0 auto;
     color: white;
 }
@@ -12,7 +12,6 @@ h2,
 h3,
 h4,
 h5 {
-    text-align: center;
     margin: auto;
     font-size: 4.5vh;
 }
@@ -87,42 +86,20 @@ padding-bottom: 1%;
     width: 25%;
 }
 
-.l1 {
-    background: #551c6c;
-    min-height: 47.5vh;
-   
 
-}
-.l2 {
-   background: white;
-    color: grey;
-    min-height: 47.5vh;
-}
-.r1 {
-   background: white;
-    color: grey;
-   min-height: 47.5vh;
-}
-.r2 {
-     background: #551c6c;
- min-height: 47.5vh;
-    color: grey;
-}
 
 
 
 header {
-    width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-    background: #009688;
-    height: 95vh;
+    height: 79vh;
+background: white;
+    color: #1b5eae
 }
-header p{
-    padding: 2%;
+header p{padding: 2%}
+.box{
     
-    width: 80%;
+    padding: 2%;
+    width: 90%;
 margin: auto;
     border: solid;
     border-radius: .5em;
@@ -138,32 +115,30 @@ nav {
     text-align: center;
     font-size: 100%;
     color: white;
-    background: black;
-    height: 5vh;
+    background: #1b5eae;
+    height: 3vh;
    
 }
 nav a:link,
 a:visited {
     text-align: center;
-    padding: 2%;
+    
     text-decoration: none;
+    font-size:120%;
 }
 nav a:hover {
-    background: white;
-    color: #009688;
-}
-p {
-    padding: 1%;
-    
+    background: #0b4489;
+    color: white;
 }
 a {
     color: inherit;
     text-decoration: none;
 }
 footer {
-    font-size: 2.5vh;
-    background: #2196F3;
+    font-size: 2vh;
+    background: #0b4489;
     width: 100%;
     color: white;
     text-align: center;
+    height: 8.8em;
 }

@@ -1,264 +1,589 @@
-<!doctype html>
-<html>
-<head lang="en">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	
-	<title>Joshua Adrian Jones Projects</title> 
-	<meta name="description" content="BlackTie.co - Free Handsome Bootstrap Themes" />	    
-	<meta name="keywords" content="themes, bootstrap, free, templates, bootstrap 3, freebie,">
-	<meta property="og:title" content="">
+<!DOCTYPE html>
+<html lang="en">
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
-	
-	<link rel="stylesheet" type="text/css" href="css/style.css">	
-	
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	
-	
-	<link rel="prefetch" href="images/zoom.png">
-		
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Joshua Jones Portfolio">
+    <meta name="author" content="Joshua Adrian Jones">
+
+    <title>Jones Projects - Mechanical Engineering</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-	<div class="navbar navbar-fixed-top" data-activeslide="1">
-		<div class="container">
-		
-			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			
-			
-			<div class="nav-collapse collapse navbar-responsive-collapse">
-				<ul class="nav row">
-					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT ME</span></a></li>
-					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PROJECTS</span></a></li>
-					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-lightbulb"></span> <span class="text">SOFTWARE</span></a></li>
-					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-desktop"></span> <span class="text">WEB DEV</span></a></li>
-					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-gears"></span> <span class="text"> ENGINEERING</span></a></li>
-                    <li data-slide="7" class="col-12 col-sm-2"><a id="menu-link-7" href="#slide-7" title="Next Section"><span class="icon icon-group"></span> <span class="text">SUEU</span></a></li>
-                    <li data-slide="8" class="col-12 col-sm-2"><a id="menu-link-8" href="#slide-8" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text"> LET'S WORK TOGETHER</span></a></li>
-				</ul>
-				<div class="row">
-					<div class="col-sm-2 active-menu"></div>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Jones Projects</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#resume">Resume</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#together">Let's work together</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class=spaceman>
+            
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    
+                    <div class="intro-text">
+                        <span class="name">Hi, I'm Joshua</span>
+                        
+                       
+                        
+                    </div>
+                </div>
+                     <div class="col-lg-6">
+                    
+                    <div class="intro-text">
+                       
+                        <div class="littlej">
+                        <span class="name">I am a Mechanical Engineer</span></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            </div>
+    </header>
+
+    
+
+    <!-- About Section -->
+    <section class="success" id="about">
+                    <div class="container">
+            <div class="spacemanbox">
+            <div class="row">
+            <div class="col-lg-12" >
+                <div class="space-subtitle">
+                <span class="name">Some Things I love to do:</span>
+                </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4">
+                <img src="img/s01.png">    
+                World Class Engineering
+                 </div>
+                <div class="col-lg-4">
+                    <img src="img/s02.png">
+                See projects through from concept to delivery
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/s03.png">
+                Develop Great Teams
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            	<div class="row">
+				<div class="col-lg-3">
+					<div class="Jicon">
+                    <h2><i class="fa fa-graduation-cap"></i></h2></div>
+					<h2>Qualified</h2>
+					<h4 >On track for a first class MEng in Mechanical Engineering </h4>
+                    
 				</div>
-			</div><!-- /.nav-collapse -->
-		</div><!-- /.container -->
-	</div><!-- /.navbar -->
-	
-	
-	<!-- === Arrows === -->
-	<div id="arrows">
-		<div id="arrow-up" class="disabled"></div>
-		<div id="arrow-down"></div>
-		<div id="arrow-left" class="disabled visible-lg"></div>
-		<div id="arrow-right" class="disabled visible-lg"></div>
-	</div><!-- /.arrows -->
-	
-	
-	<!-- === MAIN Background === -->
-	<div class="slide story" id="slide-1" data-slide="1">
-		<div class="container">
-			<div id="home-row-1" class="row clearfix">
-				<div class="col-4">
-					<h1 class="font-semibold">JOSHUA JONES <span class="font-thin">PROJECTS</span></h1>
-                    <h3>Welcome.</h3>
-					<h4 class="font-thin">I am a<br> <span class="font-semibold">Mechanical Engineer</span> <br>based in Manchester.</h4>
-                
-				</div><!-- /col-4 -->
-                <div class="col-4"></div>
-                <div class="col-4"> <h1 class="font-semibold">Some things I <span class="font-thin"> love to do:</span></h1>
-                <div class="home-hover navigation-slide" data-slide="6"><img src="images/s04.png"></div><span><h3>World Class Engineering</h3></span>
-                <div class="home-hover navigation-slide" data-slide="6"><img src="images/s05.png"></div><span><h3>Projects: from concept to delivery</h3></span>
-                <div class="home-hover navigation-slide" data-slide="7"><img src="images/s06.png"></div><span><h3>Develop Great Teams</h3></span>
-                </div>
-			</div><!-- /row -->
-		
-		</div><!-- /container -->
-	</div><!-- /slide1 -->
-	
-	<!-- === Slide 2 === -->
-	<div class="slide story" id="slide-2" data-slide="2">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-thin">About<span class="font-semibold"> me</span> </div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			
-			<div class="row content-row">
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-cogs"></i></p>
-					<h2 class="font-semibold">Qualified</h2>
-					<h4 class="font-thin">On track for a first class MEng in Mechanical Engineering </h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-laptop"></i></p>
-					<h2 class="font-thin">Highly <span class="font-semibold">Capable</span></h2>
-					<h4 class="font-thin"> Almost 2 years experience in industry leading, world class engineering companies</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-plus"></i></p>
-					<h2 class="font-thin">Versatile <span class="font-semibold">skillset</span></h2>
-					<h4 class="font-thin">A broad and ever expanding range of skills from computational fluid dynamics, to web development. </h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="icon icon-wrench"></i></p>
-					<h2 class="font-semibold">Passionate<span class="font-thin"> about design</span></h2>
-					<h4 class="font-thin">Seeing projects through from concept to delivery, covering all the bases.</h4>
-				</div><!-- /col12 -->
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide2 -->
-	
-	<!-- === SLide 3 - Portfolio -->
-<!--	<div class="slide story" id="slide-3" data-slide="3">
-		<div class="row">
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/turbo1.png"><img class="thumb" src="images/turbo1.png" alt=""></a></div>
-			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/turbo2.png"><img class="thumb" src="images/turbo2.png" alt=""></a></div>
-            			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/cummins.jpg"><img class="thumb" src="images/cummins.jpg" alt=""></a></div>
-            			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/design.jpg"><img class="thumb" src="images/design.jpg" alt=""></a></div>
-            
-	-->	<!-- </div><!-- /row -->
-	<!--</div><!-- /slide3 -->
-	
-	<!-- === Slide 4 - Process === -->
-	<div class="slide story" id="slide-4" data-slide="4">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-thin">Engineering  <span class="font-semibold">Software</span> Development</div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row subtitle-row">
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">From developing web and mobile apps to help your engineers out in the field, to bespoke analysis tools for the design office, I am focused on building capability for my own engineering projects proffesionally and personally, using a range of tools and programming languages. </div>
+                <div class="col-lg-3">  
+                    <div class="Jicon">
+                    <h2><i class="fa fa-cog fa-spin"></i></h2></div>
+                    
+					<h2 >Highly Capable</h2>
+					<h4 > Almost 2 years experience in industry leading, world class engineering companies</h4>
+                    </div>
 				
+					 <div class="col-lg-3"> 
+                           <div class="Jicon">
+                    <h2><i class="fa fa-linux"></i></h2></div>
+                         
+					<h2>Versatile skillset</h2>
+					<h4 >A broad and ever expanding range of skills from computational fluid dynamics, to web development. </h4>
+				</div>
+				<div class="col-lg-3">
+                    <div class="Jicon">
+                    <h2><i class="fa fa-cogs"></i></h2></div>
+					
+					<h2 >Passionate about design</h2>
+					<h4 >Seeing projects through from concept to delivery, covering all the bases.</h4>
+				</div><!-- /col12 -->
 			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide4 -->
-	
-	<!-- === Slide 5 === -->
-	<div class="slide story" id="slide-5" data-slide="5">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-thin"><span class="font-semibold">Web</span> Development</div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row subtitle-row">
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">I have only been learning web development for a short time however I am always interested in taking on projects to expand my knowledge.</div>
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row content-row">
-				<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-2"><img src="images/client01.png" alt=""></div>
-				
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide5 -->
-	<div class="slide story" id="slide-6" data-slide="6">
-		<div class="container">
-            <div class="row title-row">
             
-            <div class="col-12 font-semibold">
-                <H1>Mechanical Engineering</H1>
-                
+            
+            <div class="row">
+                <div class="col-lg-3 ">
+                    <p>I want to help solve tough technical problems that lead to beautiful user friendly products.</p>
                 </div>
-            <div class="font-light"> Having always been interested in science and technology I am currently studying Mechanical Engineering at the University of Salford, I have also spent some time in industry and pride myself on my project management skills, with a keen passion for seeing a project through from concept to delivery.</div>
+                <div class="col-lg-9">
+                    <p> I am currently studying Mechanical Engineering at the University of Salford, I have also spent some time in industry and pride myself on my project management skills and drive to produce a polished solution to  any challenge. </p>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="portfolioJ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <div class="Resume">
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resume</h2>
+                    <hr class="star-primary">
+                </div>
+                   <div class="col-lg-12 text-center">
+                    <a href="#" class="btn btn-lg ">
+                        <i class="fa fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                <h1>Coming soon</h1>
+                    <h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1><h1>Coming soon</h1></div>
+                </div>
+            </div>
+         
+        </div>
+        
+        
+    </section></div>
+
+    <!-- Footer -->
+    <footer class="text-center" id="together">
+        <div class="footer-above">
+            <div class="container">
+                <h1>Let's work together to do something great</h1>
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Manchester, UK</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Me, in other places</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/JoshARJones" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/JoshuaAdrianJones" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Joshua_AR_Jones" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="uk.linkedin.com/in/joshuajonesengineering" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Get  in touch</h3>
+                        <p>0750 8097 942</p>
+                        <p>Joshua.ar.Jones@gmail.com</p>
+                        <p>www.sueu.co.uk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Joshua Jones 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="slide story" id="slide-7" data-slide="7">
-		<div class="container">
-            <div class="row title-row">
-            
-            <div class="col-12 font-semibold">
-                <H1>Salford University Engineers Union</H1>
-                
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
                 </div>
-           
-This is the engineering society at salford university, having joined in 2012 as vice secretary, I was elected vice chairman in 2013, I left the society in 2014 to undertake my industrial placement year, however I plan to be involved in some capacity if not chair/vice chair when I return to university in Sept '15.
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>    
-	<!-- === Slide 6 / Contact === -->
-	<div class="slide story" id="slide-8" data-slide="8">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-light">let's work <span class="font-semibold">together</span></div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			<div id="contact-row-4" class="row">
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-linkedin"></i></a></p>
-					<span class="hover-text font-light ">uk.linkedin.com/in/joshuajonesengineering/en</span></a>
-				</div><!-- /col12 -->#
-            				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-phone"></i></a></p>
-					<span class="hover-text font-light ">(+44) 07508097942</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-envelope"></i></a></p>
-					<span class="hover-text font-light ">joshua.ar.jones@gmail.com</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-home"></i></a></p>
-					<span class="hover-text font-light ">Manchester, England</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-facebook"></i></a></p>
-					<span class="hover-text font-light ">facebook.com/JoshARJones</span></a>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="#"><i class="icon icon-twitter"></i></a></p>
-					<span class="hover-text font-light ">@Joshua_AR_Jones</span></a>
-				</div><!-- /col12 -->
-				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /Slide 6 -->
-	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
 </body>
-
-	<!-- SCRIPTS -->
-	<script src="js/html5shiv.js"></script>
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
-	<script src="js/script.js"></script>
-	
-	<!-- fancybox init -->
-	<script>
-	$(document).ready(function(e) {
-		var lis = $('.nav > li');
-		menu_focus( lis[0], 1 );
-		
-		$(".fancybox").fancybox({
-			padding: 10,
-			helpers: {
-				overlay: {
-					locked: false
-				}
-			}
-		});
-	
-	});
-	</script>
 
 </html>

@@ -1,0 +1,12 @@
+
+.list-inline a{
+ font-size: 200%;   
+} <!-- makes green icons for social media links bigger. -->
+body {
+height: 100%;
+}
+
+footer {
+padding-top: 10%;
+}
+img{padding-left: 30%}

@@ -1068,7 +1068,10 @@
 	}
 
 /* Basic */
-
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 	body {
 		background: #252122;
 		background-image: url("images/bg02.png");
@@ -1884,19 +1887,22 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 4.5em 0 4em 0;
+				padding: 1em 0 2em 0;
+                height: 20vh;
 			}
 
 			#main-wrapper {
-				padding: 4em 0 4em 0;
+				padding: 2em 0 2em 0;
+                height: 30vh;
 			}
 
 			#footer-wrapper {
-				padding: 4em 0 4em 0;
+				padding: 1em 0 0em 0;
+                height: 20vh;
 			}
 
 				#footer-wrapper header {
-					margin: 0 0 3em 0;
+					margin: 0 0 0em 0;
 				}
 
 					#footer-wrapper header h2 {

@@ -1,0 +1,18 @@
+.icons img {
+    
+    width: 50%;
+    height: auto;
+    
+}
+.icons{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    float: none;
+    margin:0 auto;
+    display: inline-block;
+}
+.icons a{color: black;}
+
+.inner img{width: 25%; height: auto;}

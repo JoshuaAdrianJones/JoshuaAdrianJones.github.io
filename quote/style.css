@@ -1,0 +1,64 @@
+a {
+  color: #CF5C36;
+}
+
+p {
+  font-family: 'Fredoka One', cursive;
+}
+
+.border {
+  border-style: solid;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  font-size: 5vw;
+  font-family: 'Bangers', cursive;
+}
+
+h4 {
+  font-family: 'Sansita One', cursive;
+}
+
+.panel {
+  font-family: 'Bangers', cursive;
+}
+
+body {
+  color: #000000;
+}
+
+form {
+  padding: 5%;
+}
+
+.output {
+  padding-top: 15%;
+}
+
+
+/* centered columns styles */
+
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+.btn-default {
+  margin: 5%;
+}
+
+.answer {
+  margin: 10%
+}

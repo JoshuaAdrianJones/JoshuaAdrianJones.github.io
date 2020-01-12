@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+<title>This is the FCC Survey Form Project</title>
+<h1 id='title'>This is the FCC Survey Form Project</h1>
+<p id='description'>Thank you for taking part in this survey form please enter your details below:</p>
+
+<form id='survey-form'>
+<section class="form-element">
+<label id ='name-label'>Name </label><input type='text' required id='name' placeholder='First and Last Name' />
+</section>
+
+<section class="form-element">
+<label id ='email-label'>Email address </label><input id='email' type='email' required placeholder='email address' >
+</section>
+<section class='form-element'>
+<label id='number-label'>How many times a week do you drink wine? </label><input id='number' type='number' required min='0' max = '12' step = '1' placeholder='glasses of wine per week'>
+</section>
+
+<section class="form-element" id='glass-size'>
+  <label id='dropdown-label'>What size of glass do you typically order?</label>
+  <select id='dropdown'>
+    <option value="small"> Small</option>
+    <option value="medium"> Medium</option>
+    <option value="large"> Large</option>
+    <option value="bottle"> Bottle</option>
+  </select>  
+
+
+</section>
+
+<section class='form-element' id='wine-selection'>
+<label id='wine-labels'>Which kind of wine do you like best?</label><br>
+<input type="radio" name="wine" value="red"> Red<br>
+<input type="radio" name="wine" value="white"> White<br>
+<input type="radio" name="wine" value="rose"> Rose
+
+</section>
+
+<section class='form-element' id='solo-or-social'>
+<label id='habit-label'>When drinking wine do you typically drink at home, at a pub/bar or both?</label><br>
+<input type="checkbox" name="habit" value="home"> Home<br>
+<input type="checkbox" name="habit" value="outside"> Pub/Bar<br>
+
+</section>
+
+<section class="form-element">
+<label id='comments-label'> Please enter any other information about your wine drinking habits:</label><br>
+<textarea id='comments' name='comments' rows='3' cols='50'></textarea>
+</section>
+
+<section class="form-element">
+
+  <input id='submit' type="submit" value='Submit'> 
+</section>
+
+</form>
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>

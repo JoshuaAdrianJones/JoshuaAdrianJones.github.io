@@ -13,36 +13,42 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body class="bg-gray-200">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
+<div class="container border-solid border-4 border-grey-600 mx-auto w-1/2 px-4 bg-white">
 
+<div class="container w-auto object-center mt-4 mx-auto px-6 pt-6">
 <title>This is the FCC Survey Form Project</title>
 <h1 id='title'>This is the FCC Survey Form Project</h1>
 <p id='description'>Thank you for taking part in this survey form please enter your details below:</p>
+</div>
 
-<form id='survey-form'>
+
+<div class="container object-center w-1/2 sm:w-auto mx-auto  mt-4 px-4">
+
+<form  id='survey-form'>
 <section class="form-element">
-<label id ='name-label'>Name </label><input type='text' required id='name' placeholder='First and Last Name' />
+<label id ='name-label'>Name </label><input class="ml-4 border-solid border-2 border-grey-600 rounded" type='text' required id='name' placeholder='First and Last Name' />
 </section>
 
 <section class="form-element">
-<label id ='email-label'>Email address </label><input id='email' type='email' required placeholder='email address' >
+<label id ='email-label'>Email address </label><input class="ml-4 border-solid border-2 border-grey-600 rounded" id='email' type='email' required placeholder='email address' >
 </section>
 <section class='form-element'>
-<label id='number-label'>How many times a week do you drink wine? </label><input id='number' type='number' required min='0' max = '12' step = '1' placeholder='glasses of wine per week'>
+<label id='number-label'>How many times a week do you drink wine? </label><input class="ml-4 border-solid border-2 border-grey-600 rounded" id='number' type='number' required min='0' max = '12' step = '1' placeholder='glasses of wine per week'>
 </section>
 
 <section class="form-element" id='glass-size'>
-  <label id='dropdown-label'>What size of glass do you typically order?</label>
-  <select id='dropdown'>
+  <label   id='dropdown-label'>What size of glass do you typically order?</label>
+  <select class="ml-4 border-solid border-2 border-grey-600 rounded" id='dropdown'>
     <option value="small"> Small</option>
     <option value="medium"> Medium</option>
     <option value="large"> Large</option>
@@ -64,27 +70,26 @@
 <label id='habit-label'>When drinking wine do you typically drink at home, at a pub/bar or both?</label><br>
 <input type="checkbox" name="habit" value="home"> Home<br>
 <input type="checkbox" name="habit" value="outside"> Pub/Bar<br>
-
 </section>
 
-<section class="form-element">
+<section class="container w-auto sm:w-auto form-element">
 <label id='comments-label'> Please enter any other information about your wine drinking habits:</label><br>
-<textarea id='comments' name='comments' rows='3' cols='50'></textarea>
+<textarea class="mt-2 border-solid border-2 border-grey-400 rounded"  id='comments' name='comments' ></textarea>
 </section>
 
-<section class="form-element">
-
-  <input id='submit' type="submit" value='Submit'> 
+<section class="w-auto sm:w-auto form-element">
+  <input id='submit' type="submit" value='Submit'>
 </section>
 
 </form>
-
+</div>
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+</div>
 
 </body>
 
